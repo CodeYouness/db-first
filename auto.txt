@@ -1,23 +1,23 @@
 
-marca
-modello
-anno_produzione
-km_percorsi
-n_proprietari
-n_matricola
-cc_motore
-p_gomme
-passo
-altezza
-lunghezza
-larghezza
-n_posti_sedere
-n_porte
-optional
-prezzo
-iva
-alimentazione
-tipo_cambio
-tipo_veicolo
-peso
-colore
+marca                   VARCHAR(50)
+modello                 VARCHAR(100)
+anno_produzione         YEAR
+km_percorsi             MEDIUMINT           UNSIGNED
+n_proprietari           TINYINT             UNSIGNED
+n_matricola             VARCHAR(20)         UNSIGNED
+cc_motore               SMALLINT
+p_gomme                 TINYINT
+passo                   TINYINT
+altezza                 TINYINT
+lunghezza               TINYINT
+larghezza               TINYINT
+n_posti_sedere          TINYINT 
+n_porte                 TINYINT
+optional                VARCHAR
+prezzo                  MEDIUMINT
+iva                     SMALLINT
+alimentazione           VARCHAR(10)
+tipo_cambio             VARCHAR(10)
+tipo_veicolo            VARCHAR(20)
+peso                    SMALLINT
+colore                  VARCHAR(20)
